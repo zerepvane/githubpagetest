@@ -2,10 +2,11 @@
 title: "github page test"
 author: "Vanessa Perez"
 date: "`r Sys.Date()`"
-output: 
-  pretty::html_pretty:
-    theme:cayman
+output:
+   prettydoc::html_pretty:
+    theme: cayman
     toc: yes
+
 ---
 
 ```{r setup, include=FALSE}
